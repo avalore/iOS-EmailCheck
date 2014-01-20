@@ -14,8 +14,8 @@ Email address' are awkward to type on mobile devices. Your users could be in a t
         NSString *suggestMsg = [NSString stringWithFormat:@"Did you mean %@?", suggestedEmail];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Did you mean?"
                                                         message:suggestMsg
-                                                       delegate:self 
-					      cancelButtonTitle:@"No"
+                                                       delegate:self
+                                              cancelButtonTitle:@"No"
                                               otherButtonTitles:@"Yes", nil];
         [alert show];
     }
